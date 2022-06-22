@@ -27,7 +27,7 @@ jobs:
 
       - name: Run ci
         run: |
-        yarn
-        yarn ci
+          npm install
+          npm run ci
 
       
